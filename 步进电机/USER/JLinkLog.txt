@@ -1,0 +1,31 @@
+
+T20C4 000:033 SEGGER J-Link V6.00e Log File (0001ms, 0024ms total)
+T20C4 000:033 DLL Compiled: Aug  4 2016 09:37:38 (0001ms, 0024ms total)
+T20C4 000:033 Logging started @ 2017-04-10 13:24 (0001ms, 0024ms total)
+T20C4 000:034 JLINK_SetWarnOutHandler(...) (0000ms, 0024ms total)
+T20C4 000:034 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N: 20080643
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0018ms, 0042ms total)
+T20C4 000:052 JLINK_SetErrorOutHandler(...) (0000ms, 0042ms total)
+T20C4 000:052 JLINK_ExecCommand("ProjectFile = "C:\Users\msq\Desktop\步进电机\USER\JLinkSettings.ini"", ...).   returns 0x00 (0104ms, 0146ms total)
+T20C4 000:156 JLINK_ExecCommand("Device = STM32F103C8", ...). Device "STM32F103C8" selected.  returns 0x00 (0000ms, 0146ms total)
+T20C4 000:156 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 0146ms total)
+T20C4 000:156 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0146ms total)
+T20C4 000:156 JLINK_GetDLLVersion()  returns 60005 (0000ms, 0146ms total)
+T20C4 000:156 JLINK_GetFirmwareString(...) (0000ms, 0146ms total)
+T20C4 000:156 JLINK_GetDLLVersion()  returns 60005 (0000ms, 0146ms total)
+T20C4 000:156 JLINK_GetCompileDateTime() (0000ms, 0146ms total)
+T20C4 000:156 JLINK_GetFirmwareString(...) (0000ms, 0146ms total)
+T20C4 000:156 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0146ms total)
+T20C4 000:156 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0004ms, 0150ms total)
+T20C4 000:160 JLINK_SetSpeed(10000) (0001ms, 0151ms total)
+T20C4 000:161 JLINK_GetId() >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF> >0x108 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x00 (0000ms, 0000ms total)
+               >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x108 TIF> >0x108 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.  returns 0x00000000 (1217ms, 1368ms total)
+T20C4 003:004 JLINK_Close() (0006ms, 1374ms total)
+T20C4 003:004  (0006ms, 1374ms total)
+T20C4 003:004 Closed (0006ms, 1374ms total)
